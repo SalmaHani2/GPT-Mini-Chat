@@ -1,0 +1,79 @@
+ *{
+    
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+ 
+ #main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(69, 163, 231);
+    height: 100vh;
+    flex-direction: column;
+    
+
+ }
+ body{
+    margin: 0px;
+    color: white;
+    
+
+ }
+ #main_title{
+    font-size: 100px;
+    margin: 0px;
+ }
+ #main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    height: 200px;
+    width: 700px;
+    padding :15px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+ }
+ #word-input{
+    width: 500px;
+    height : 50px;
+    border-radius: 100px;
+    padding: 0px 20px;
+
+ }
+ #submit-btn{
+    height: 50px;
+    border :none;
+    border-radius: 100px;
+    margin: 0px 10px;
+    width: 160px;
+    background-color: rgb(38, 101, 134);
+    color:aliceblue;
+    cursor: pointer;
+    transition: all.3;
+
+ }
+ #submit-btn:hover{
+    background-color: rgb(7, 2, 69);
+    color: white;
+ }
+ #reply-container{
+    color: black;
+    font-size: 25px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    height: 200px;
+    width: 700px;
+    padding :15px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 15px 
+
+ }
